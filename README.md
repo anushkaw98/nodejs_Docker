@@ -36,7 +36,7 @@ let's test with docker,
           check #docker container ls  >> no containers still,
           check on docker,image is there
 
-          #docker container -d -p 3000:3000 anushkaw98/nodejs:0.0.1
+          #docker container run -d -p 3000:3000 anushkaw98/nodejs:0.0.1
           port >> machine port: Docker port
           will create a container ID
                 result >>    >mynode@1.0.0 start
